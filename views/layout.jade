@@ -1,0 +1,29 @@
+!!! 5
+html(lang="ja")
+  head
+    block head
+    meta(charset='UTF-8')
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    link(rel='stylesheet', href='/css/custom.css')
+  body(data-spy="scroll", data-target=".bs-docs-sidebar")
+
+block header
+  .navbar.navbar-inverse
+    .navbar-inner
+      .container
+        a.brand(href="./index.html")
+        .nav-collapse.collapse
+          ul.nav
+            - navData.forEach(function (o, i) {
+              - if (i == currentNav)
+                li.active
+                  a(href=o.path) #{o.str}
+              - else
+                li
+                  a(href=o.path) #{o.str}
+            - })
+
+block main-visual
+
+block content

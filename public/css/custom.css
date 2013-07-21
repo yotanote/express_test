@@ -1,0 +1,50 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font: 12x "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.navbar{
+    margin-bottom:0px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.navbar > .navbar-inner{
+    border-radius:0px;
+    background: #959595; /* Old browsers */
+background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #1b1b1b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(100%,#1b1b1b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#1b1b1b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#1b1b1b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#1b1b1b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#1b1b1b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.masthead{
+padding: 70px 0 80px;
+margin-bottom: 0;
+color: #fff;
+
+background: #425c96; /* Old browsers */
+background: -moz-linear-gradient(top,  #425c96 0%, #370e49 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#425c96), color-stop(100%,#370e49)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #425c96 0%,#370e49 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #425c96 0%,#370e49 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #425c96 0%,#370e49 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #425c96 0%,#370e49 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#425c96', endColorstr='#370e49',GradientType=0 ); /* IE6-9 */
+}
+
+#logo {
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.825);
+    letter-spacing: .05em;
+}
+
+a {
+  color: #00B7FF;
+}
